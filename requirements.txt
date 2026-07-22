@@ -1,0 +1,17 @@
+# ==============================================================================
+# ISO-Standard Black Noise Synthesizer & Automation Pipeline
+# Python Dependencies
+# ==============================================================================
+
+# Core Mathematical & Array Processing
+# Used for stochastic noise generation, LFO modulation, and array manipulation
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Audio Mastering & Loudness Normalization
+# Implements the ITU-R BS.1770-4 algorithm for LUFS metering and normalization
+pyloudnorm>=0.1.1
+
+# Image Generation & Procedural Artwork
+# Used for rendering ISO-aesthetic thumbnails and podcast cover art
+Pillow>=9.4.0
